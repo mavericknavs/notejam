@@ -1,3 +1,4 @@
+cd spring
 mvn -B clean package -DskipTests
 echo 'Install into the local Maven repository'
 mvn jar:jar install:install
